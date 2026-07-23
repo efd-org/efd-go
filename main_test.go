@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestGetGreeting(t *testing.T) {
-	if got := getGreeting(); got != "Hello, World!" {
-		t.Fatalf("getGreeting() = %q, want %q", got, "Hello, World!")
+	if got := getGreeting(); got != "Welcome to EFD Go project!" {
+		t.Fatalf("getGreeting() = %q, want %q", got, "Welcome to EFD Go project!")
 	}
 }
